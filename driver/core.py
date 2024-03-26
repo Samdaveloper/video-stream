@@ -16,5 +16,3 @@ user = Client(
     api_id=API_ID,
     api_hash=API_HASH,
 )
-
-calls = PyTgCalls(user, overload_quiet_mode=True)
